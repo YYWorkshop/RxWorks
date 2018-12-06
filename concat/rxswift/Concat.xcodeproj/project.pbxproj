@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B99556B321B91345004F4C36 /* ConcatOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99556B221B91345004F4C36 /* ConcatOperator.swift */; };
+		B99556B521B915BC004F4C36 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99556B421B915BC004F4C36 /* Employee.swift */; };
 		B9BE009A21B8C45600A13A5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BE009921B8C45600A13A5F /* AppDelegate.swift */; };
 		B9BE009C21B8C45600A13A5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BE009B21B8C45600A13A5F /* ViewController.swift */; };
 		B9BE009F21B8C45600A13A5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9BE009D21B8C45600A13A5F /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 /* Begin PBXFileReference section */
 		5A0EDD9DFD876A89846FCD2A /* Pods_Concat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Concat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7834562819B7AC0B539B061 /* Pods-Concat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Concat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Concat/Pods-Concat.release.xcconfig"; sourceTree = "<group>"; };
+		B99556B221B91345004F4C36 /* ConcatOperator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcatOperator.swift; sourceTree = "<group>"; };
+		B99556B421B915BC004F4C36 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		B9BE009621B8C45600A13A5F /* Concat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9BE009921B8C45600A13A5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9BE009B21B8C45600A13A5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,12 +82,14 @@
 		B9BE009821B8C45600A13A5F /* Concat */ = {
 			isa = PBXGroup;
 			children = (
+				B99556B221B91345004F4C36 /* ConcatOperator.swift */,
 				B9BE009921B8C45600A13A5F /* AppDelegate.swift */,
 				B9BE009B21B8C45600A13A5F /* ViewController.swift */,
 				B9BE009D21B8C45600A13A5F /* Main.storyboard */,
 				B9BE00A021B8C45800A13A5F /* Assets.xcassets */,
 				B9BE00A221B8C45800A13A5F /* LaunchScreen.storyboard */,
 				B9BE00A521B8C45800A13A5F /* Info.plist */,
+				B99556B421B915BC004F4C36 /* Employee.swift */,
 			);
 			path = Concat;
 			sourceTree = "<group>";
@@ -211,6 +217,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B9BE009C21B8C45600A13A5F /* ViewController.swift in Sources */,
+				B99556B521B915BC004F4C36 /* Employee.swift in Sources */,
+				B99556B321B91345004F4C36 /* ConcatOperator.swift in Sources */,
 				B9BE009A21B8C45600A13A5F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
