@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         
         let concatOperator = ConcatOperator()
         
-        concatOperator.getEmployeeData()        
+        concatOperator.getEmployeeData()
     }
 
 }
@@ -87,7 +87,7 @@ extension ViewController {
             .subscribe { print($0) }
             .disposed(by: disposeBag)
         
-        subject1.onCompleted()
+//        subject1.onCompleted()
         
         subject1.onNext("🍐")
         
@@ -95,12 +95,18 @@ extension ViewController {
         
         variable.value = subject2.asObserver()
         
+//        subject1.onCompleted()
+        
         subject2.onNext("I would be ignored1")
+        
+//        subject1.onCompleted()
         
         subject2.onNext("I would be ignored2")
         
         subject2.onNext("🐱")
         
         subject2.onNext("🐭")
+        
+        subject1.onCompleted()
     }
 }
