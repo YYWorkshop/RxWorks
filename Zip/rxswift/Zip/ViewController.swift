@@ -19,7 +19,13 @@ class ViewController: UIViewController {
         
 //        doExample2()
         
-        doExample3()
+//        doExample3()
+        
+//        doExample4()
+        
+//        doExample5()
+        
+        doExample6()
     }
 
 }
@@ -87,10 +93,38 @@ extension ViewController {
     }
     
     func doExample4() {
-//    Observable.zip(
-//    service.getUserPhoto(id),
-//    service.getPhotoMetadata(id),
-//    (photo, metadata) -> createPhotoWithData(photo, metadata))
-//    .subscribe(photoWithData -> showPhoto(photoWithData));
+        let disposeBag = DisposeBag()
+        
+        let range = Observable.range(start: 0, count: 5);
+        
+        Observable.zip(range, range, range) {
+            "\($0):\($1):\($2)"
+            }
+            .subscribe(onNext: { print($0) })
+            .disposed(by: disposeBag)
+    }
+    
+    func doExample5() {
+        let disposeBag = DisposeBag()
+        
+        let range = Observable.range(start: 0, count: 5);
+        
+        Observable.zip(range, range.skip(3), range.skip(3)) {
+            "\($0):\($1):\($2)"
+            }
+            .subscribe(onNext: { print($0) })
+            .disposed(by: disposeBag)
+    }
+    
+    func doExample6() {
+        let disposeBag = DisposeBag()
+        
+        let range = Observable.range(start: 0, count: 5);
+        
+        Observable.zip(range, range.skip(1), range.skip(2)) {
+                "\($0):\($1):\($2)"
+            }
+            .subscribe(onNext: { print($0) })
+            .disposed(by: disposeBag)
     }
 }
