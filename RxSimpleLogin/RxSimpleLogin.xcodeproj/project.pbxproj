@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5407898236E72386B399579F /* Pods_RxSimpleLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 911A246928EB39DE19A70405 /* Pods_RxSimpleLogin.framework */; };
+		803F39E58421C431CE40353E /* Pods_RxSimpleLoginUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7836F2B2CED82B7BB4DB669 /* Pods_RxSimpleLoginUITests.framework */; };
+		AFD8618F3838E8B055529279 /* Pods_RxSimpleLoginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F703799C288EE0BDEC00E768 /* Pods_RxSimpleLoginTests.framework */; };
 		B9939A4921CCC4A100663E0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9939A4821CCC4A100663E0D /* AppDelegate.swift */; };
 		B9939A4B21CCC4A100663E0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9939A4A21CCC4A100663E0D /* ViewController.swift */; };
 		B9939A4E21CCC4A100663E0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9939A4C21CCC4A100663E0D /* Main.storyboard */; };
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E1404EC4BA987469BF11F0E /* Pods-RxSimpleLoginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSimpleLoginUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSimpleLoginUITests/Pods-RxSimpleLoginUITests.release.xcconfig"; sourceTree = "<group>"; };
+		590935C5789EEC3D303BF5A8 /* Pods-RxSimpleLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSimpleLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSimpleLogin/Pods-RxSimpleLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		6403D808C9A832971AAD526D /* Pods-RxSimpleLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSimpleLoginUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSimpleLoginUITests/Pods-RxSimpleLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B0DE79A0892614FA3BD209B /* Pods-RxSimpleLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSimpleLoginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSimpleLoginTests/Pods-RxSimpleLoginTests.release.xcconfig"; sourceTree = "<group>"; };
+		911A246928EB39DE19A70405 /* Pods_RxSimpleLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSimpleLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7836F2B2CED82B7BB4DB669 /* Pods_RxSimpleLoginUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSimpleLoginUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9939A4521CCC4A100663E0D /* RxSimpleLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSimpleLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9939A4821CCC4A100663E0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9939A4A21CCC4A100663E0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +58,9 @@
 		B9939A6721CCC4A300663E0D /* RxSimpleLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSimpleLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9939A6B21CCC4A300663E0D /* RxSimpleLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSimpleLoginUITests.swift; sourceTree = "<group>"; };
 		B9939A6D21CCC4A300663E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAF5BF33D790C32383C28080 /* Pods-RxSimpleLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSimpleLoginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSimpleLoginTests/Pods-RxSimpleLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E1E3176CF33C661316131525 /* Pods-RxSimpleLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSimpleLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSimpleLogin/Pods-RxSimpleLogin.release.xcconfig"; sourceTree = "<group>"; };
+		F703799C288EE0BDEC00E768 /* Pods_RxSimpleLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSimpleLoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5407898236E72386B399579F /* Pods_RxSimpleLogin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFD8618F3838E8B055529279 /* Pods_RxSimpleLoginTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				803F39E58421C431CE40353E /* Pods_RxSimpleLoginUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E80B6D178EA6945E7F4843A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				590935C5789EEC3D303BF5A8 /* Pods-RxSimpleLogin.debug.xcconfig */,
+				E1E3176CF33C661316131525 /* Pods-RxSimpleLogin.release.xcconfig */,
+				DAF5BF33D790C32383C28080 /* Pods-RxSimpleLoginTests.debug.xcconfig */,
+				8B0DE79A0892614FA3BD209B /* Pods-RxSimpleLoginTests.release.xcconfig */,
+				6403D808C9A832971AAD526D /* Pods-RxSimpleLoginUITests.debug.xcconfig */,
+				0E1404EC4BA987469BF11F0E /* Pods-RxSimpleLoginUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B9939A3C21CCC4A100663E0D = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +111,8 @@
 				B9939A5F21CCC4A300663E0D /* RxSimpleLoginTests */,
 				B9939A6A21CCC4A300663E0D /* RxSimpleLoginUITests */,
 				B9939A4621CCC4A100663E0D /* Products */,
+				3E80B6D178EA6945E7F4843A /* Pods */,
+				E5EB0D358AE446E0FBC5311B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +158,16 @@
 			path = RxSimpleLoginUITests;
 			sourceTree = "<group>";
 		};
+		E5EB0D358AE446E0FBC5311B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				911A246928EB39DE19A70405 /* Pods_RxSimpleLogin.framework */,
+				F703799C288EE0BDEC00E768 /* Pods_RxSimpleLoginTests.framework */,
+				A7836F2B2CED82B7BB4DB669 /* Pods_RxSimpleLoginUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9939A7021CCC4A300663E0D /* Build configuration list for PBXNativeTarget "RxSimpleLogin" */;
 			buildPhases = (
+				7B4FDA25CA01F38E278B8CE6 /* [CP] Check Pods Manifest.lock */,
 				B9939A4121CCC4A100663E0D /* Sources */,
 				B9939A4221CCC4A100663E0D /* Frameworks */,
 				B9939A4321CCC4A100663E0D /* Resources */,
+				A4DD1ECF9DED851AAB0F2A79 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9939A7321CCC4A300663E0D /* Build configuration list for PBXNativeTarget "RxSimpleLoginTests" */;
 			buildPhases = (
+				B5DECDF8031770B957D51F84 /* [CP] Check Pods Manifest.lock */,
 				B9939A5821CCC4A300663E0D /* Sources */,
 				B9939A5921CCC4A300663E0D /* Frameworks */,
 				B9939A5A21CCC4A300663E0D /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B9939A7621CCC4A300663E0D /* Build configuration list for PBXNativeTarget "RxSimpleLoginUITests" */;
 			buildPhases = (
+				985AAC00DE4C3EB33EE494E9 /* [CP] Check Pods Manifest.lock */,
 				B9939A6321CCC4A300663E0D /* Sources */,
 				B9939A6421CCC4A300663E0D /* Frameworks */,
 				B9939A6521CCC4A300663E0D /* Resources */,
@@ -253,6 +297,101 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B4FDA25CA01F38E278B8CE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSimpleLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		985AAC00DE4C3EB33EE494E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSimpleLoginUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4DD1ECF9DED851AAB0F2A79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxSimpleLogin/Pods-RxSimpleLogin-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSimpleLogin/Pods-RxSimpleLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5DECDF8031770B957D51F84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSimpleLoginTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B9939A4121CCC4A100663E0D /* Sources */ = {
@@ -434,6 +573,7 @@
 		};
 		B9939A7121CCC4A300663E0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 590935C5789EEC3D303BF5A8 /* Pods-RxSimpleLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +592,7 @@
 		};
 		B9939A7221CCC4A300663E0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1E3176CF33C661316131525 /* Pods-RxSimpleLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +611,7 @@
 		};
 		B9939A7421CCC4A300663E0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAF5BF33D790C32383C28080 /* Pods-RxSimpleLoginTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +633,7 @@
 		};
 		B9939A7521CCC4A300663E0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B0DE79A0892614FA3BD209B /* Pods-RxSimpleLoginTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +655,7 @@
 		};
 		B9939A7721CCC4A300663E0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6403D808C9A832971AAD526D /* Pods-RxSimpleLoginUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +676,7 @@
 		};
 		B9939A7821CCC4A300663E0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E1404EC4BA987469BF11F0E /* Pods-RxSimpleLoginUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
